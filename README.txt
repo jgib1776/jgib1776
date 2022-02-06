@@ -17,6 +17,7 @@ django-admin startapp api
 # settings.py api.apps.ApiConfig
 python manage.py makemigrations
 python manage.py migrate
+python manage.py createsuperuser
 
 # Setup github  jgib1776
 # Installed github-cli from https://github.com/cli/cli/releases/tag/v2.5.0
@@ -49,10 +50,7 @@ git add .
 git commit -m "message"
 git push
 
-
-
-
-# Normal operations
+# Normal Django operations
 cd C:\Users\jgibf\Documents\Python
 C:\Users\jgibf\Documents\Python\gibbous\Scripts\activate.bat
 cd C:\Users\jgibf\Documents\Python\gibbous_dj
