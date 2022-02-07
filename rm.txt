@@ -5,6 +5,8 @@ py -m pip install --upgrade pip
 py -m pip install Django
 py -m pip install psycopg2
 py -m pip install djangorestframework
+# Pillow works with images
+py -m pip install Pillow
 
 # Setup sublimetext: https://www.youtube.com/watch?v=xFciV6Ew5r4
 # Install packages in sublime with Tools-->Command Pallete, 'Package Control: Install Package'
